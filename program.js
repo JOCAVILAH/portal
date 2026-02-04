@@ -3,7 +3,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
-var circle = L.circle([4.1, -74.1], {
+var circle = L.circle([4, -74], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
